@@ -1,0 +1,51 @@
+body{ 
+   font-family: 'Oswald', sans-serif;
+   line-height: 2em;
+    
+}
+
+.alert-container{
+    
+    
+}
+
+
+.callout-container{
+    height:100vh;
+    
+    background: url('../images/whiskeybkgd.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+    display: flex;
+    align-items:center;
+}
+
+.quotes-container{
+    
+    
+    
+}
+
+.features-container{
+    
+    
+}
+
+.jumbotron{
+    background-color:rgba(255,255,255,0.6);
+    width:100vw!important;
+    margin:0;
+}
+
+.jumbotron small{
+        font-style: italic;
+    font-size: 77%;
+    color: white;
+}
+
+.jumbotron mark{
+   background-color: rgba(255,255,255,0.7);
+}
