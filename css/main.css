@@ -33,10 +33,53 @@ body{
     
     
 }
+/* Navbar */
+
+.navbar{
+    margin-bottom: 0;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    z-index: 1;
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar .navbar-brand{
+    color: #c19e1f;
+    font-weight: bolder; 
+}
+
+.navbar .navbar-brand:hover{
+    color: white;
+}
+
+.nav.navbar-nav li a {color:white;}
+.navbar-default .navbar-text{color:white;}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: #c19e1f;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #c19e1f;
+}
+
+a.btn.btn-default.navbar-btn{
+    background-color: #c19e1f;
+    color: white;
+    border:0;
+}
+a.btn.btn-default.navbar-btn:hover{
+    background-color: white;
+    color: #c19e1f;
+    border:0;
+}
+/* Jumbotron */
 
 .jumbotron{
     background-color:rgba(255,255,255,0.6);
-    width:100vw!important;
+    width:100vw;
     margin:0;
 }
 
@@ -48,4 +91,22 @@ body{
 
 .jumbotron mark{
    background-color: rgba(255,255,255,0.7);
+}
+
+/* columns */
+
+.page-header {
+    width: 100%;
+    text-align: center;
+    border-bottom: hidden;
+    margin-top:80px;
+    margin-bottom: 80px;
+}
+
+/* block divider */
+
+.block-divider{
+    width: 50px;
+    text-align: center;
+    border-top-color:#c19e1f;
 }
